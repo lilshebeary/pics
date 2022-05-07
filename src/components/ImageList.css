@@ -1,4 +1,5 @@
 .image-list{
+    margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 0 10px;
@@ -7,5 +8,5 @@
 
 .image-list img {
     width: 250px;
-    grid-row-end: span 2;
+    grid-row-end: span 3;
 }
